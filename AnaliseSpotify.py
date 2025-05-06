@@ -7,8 +7,8 @@ class bancoSQL:
     def __init__(self):
         self.cn = None
         self.cnString= (
-            "DRIVER={SQL Server Native Client 11.0};"
-            "SERVER=www.jsweb.com.br;"
+            "DRIVER={ODBC Driver 17 for SQL Server};"
+            "SERVER=177.85.160.119;"
             "DATABASE=gw_GUARU_DOCE;"
             "UID=sa;"
             "PWD=jsweb2011"
